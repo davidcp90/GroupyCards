@@ -1,4 +1,28 @@
-/*
-	jQuery Mobile Boilerplate
-	css/custom.css
-*/
+@import url(http://fonts.googleapis.com/css?family=Merriweather+Sans);
+.ui-bar-c {
+	background:white;
+	border:0;
+}
+#headingzone{
+	text-align: center;
+	margin: 0 auto;
+}
+#imgzone,#titlezone{
+	float:left;
+	display: inline;
+}
+#pzone{
+	display:block;
+	margin-bottom:30px;
+}
+*,body,html{
+	font-family: 'Merriweather Sans', sans-serif;
+}
+#groupname span{
+ color:#348ab2;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}

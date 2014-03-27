@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<title> jQuery Mobile Boilerplate </title>
+	<title>Groupy Cards</title>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
 
 	<!-- if you have a custom theme, add it here -->
-	<link rel="stylesheet"  href="themes/jQuery-Mobile-Boilerplate.css" />
+	<link rel="stylesheet"  href="themes/cardshare.min.css" />
 
 	<!-- Custom css -->
 	<link rel="stylesheet" href="css/custom.css" />
@@ -47,26 +47,29 @@
 	<div data-role="page">
 
 		<div data-role="header">
-			<h1>jQuery Mobile Boilerplate 1.2</h1>
+			<h1>Groupy Cards</h1>
+			<a href="index.php" data-icon="back">Logout</a>
 		</div>
-
+		<img src="images/logo.png" alt="Groupy Cards"/>
+		<div class="ui-grid-a">
+	<div class="ui-block-a"><a href="add.php" data-transition="slidedown" data-role="button" data-theme="b"data-icon="plus">Add Card</a></div>
+	<div class="ui-block-b"><a href="share.php" data-transition="slidedown" data-role="button" data-theme="b"data-icon="info">Share a Card</a></div>
+</div>
 		<div data-role="content">
 		
-			<ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="b">
-				<li data-role="list-divider">Snippet Pages</li>
-				<li><a href="buttons.html">Buttons</a></li>
-				<li><a href="grids.html">Grids</a></li>
-				<li><a href="collapsibles.html">Collapsible Boxes</a></li>
-				<li><a href="collapsible-sets.html">Collapsible Sets</a></li>
-				<li><a href="forms.html">Form Elements</a></li>
-				<li><a href="lists.html">List Views</a></li>
+			<ul data-role="listview" data-inset="true" data-theme="a" data-dividertheme="b">
+				<li data-role="list-divider"></li>
+				<li><a href="cards.php" data-transition="pop"><img src="images/cards.png" /><h2><strong>Contact Cards</strong></h2></a></li>
+				<li><a href="groups.php" data-transition="pop"><img src="images/groups.png" /><h2><strong>Groups</strong></h2></a></li>
+				<li><a href="profile.php" data-transition="pop"><img src="images/profile.png" /><h2><strong>My Profile</strong></h2></a></li>
+				<li><a href="mycard.php" data-transition="pop"><img src="images/mycard.png" /><h2><strong>My Cards</strong></h2></a></li>
+				<li><a href="about.php" data-transition="pop"><img src="images/about.png" /><h2><strong>About</strong></h2></a></li>
+				
 			</ul>
 
 		</div>
 		
-		<div data-role="footer" data-theme="c">
-			<p>&copy; 2012 - jQuery Mobile Boilerplate</p>
-		</div>	
+		
 		
 	</div>
 </body>

@@ -1,0 +1,27 @@
+{
+  "name": "GroupyCards",
+  "description": "Cartas Empresariales",
+  "launch_path": "/index.html",  
+  "developer": {
+    "name": "LucaJotaRulos",
+    "url": "https://github.com/Droid2Fox/init_geo"
+  },
+  "installs_allowed_from": ["*"],
+  "locales": {    
+    "en-US": {
+      "name": "GroupyCards",
+      "description": "Cartas Empresariales"
+    }   
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "120": "/icons/120.png",
+    "60": "/icons/60.png"
+  },
+  "orientation": ["portrait"], 
+  "permissions": {
+    "geolocation": {
+      "description": "GroupyCards"     
+    }
+  }
+}
